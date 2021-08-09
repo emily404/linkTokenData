@@ -1,0 +1,6 @@
+
+# hourly job to query link token balance of address of interest
+0 * * * * python3 /home/emilych404/script/balance_mysql.py >> /home/emilych404/log/balance_cron.log 2>&1
+
+# hourly job to ingest transactions of link token contract
+0 * * * * python3 /home/emilych404/script/tx_mysql.py >> /home/emilych404/log/tx_cron.log 2>&1
