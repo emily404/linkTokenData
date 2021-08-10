@@ -15,6 +15,6 @@ pip3 install requests \
 pip3 install mysql-connector 
 
 # Run data ingestion script manually
-modify env[dataFilePath] in dbconfig.py
+modify env[dataFilePath] in dbconfig.py \
 python3 tx_mysql.py \
 python3 balance_mysql.py 
