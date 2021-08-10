@@ -68,7 +68,7 @@ def getTokenTransactions(contractAddress, count):
 
 def dumpFile(txs):
 	logging.info("start")
-	filePath = "/home/emilych404/data/"
+	filePath = cfg.env["dataFilePath"]
 	fileName = datetime.now().strftime('tx-%Y-%m-%d-%H-%M-%S.json')
 	jsonObject = json.dumps(txs, indent = 4)
 	jsonFile = open(filePath+fileName, "w")
