@@ -18,3 +18,7 @@ pip3 install mysql-connector
 modify env[dataFilePath] in dbconfig.py \
 python3 tx_mysql.py \
 python3 balance_mysql.py 
+
+# Dashboard
+https://app.powerbi.com/links/hwYyxXRli5?ctid=4c1b219d-8712-4495-a92c-31e6db6d1883&pbi_source=linkShare \
+https://app.powerbi.com/links/07zgnHPfXs?ctid=4c1b219d-8712-4495-a92c-31e6db6d1883&pbi_source=linkShare
